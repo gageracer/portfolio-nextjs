@@ -47,6 +47,22 @@
     margin: 0 0 1.25rem;
 }
 
+.listItem>a {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.titleImage {
+    max-Height: 48px;
+    width: auto;
+    margin-left: 0.5em;
+}
+
+.titleText {
+    margin-left:1.5em;
+    width: 75%;
+}
 
 .lightText {
     color: #999;
@@ -90,11 +106,7 @@
     writing-mode: vertical-rl;
 }
 
-.titleImage {
-    max-Width: 48px;
-    float: right;
-    margin-left: 0.5em
-}
+
 
 @media (max-width: 1080px) {
     .socials {
@@ -128,15 +140,26 @@
     }
     .titleImage {
         max-Width: 32px;
-        float: left;
         margin-left: 0.5em;
     }
     .headingMd {
         margin-left: .5em;
         margin-right: .5em;
     }
+    .headingXl {
+        margin-left: .2em;
+    }
     .insideData>p{
         margin-left: 0.5em;
+        margin-right: .5em;
     }
+    .lightText {
+        margin-left: .5em;
+    }
+    .titleImage {
+        max-Height: 32px;
+        width: auto;
+        margin-left: 0;
+}
      
 }

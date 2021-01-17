@@ -4,7 +4,7 @@ date: '2018-06-12'
 img: 'ieulogo2.png'
 ---
 
-<a href="https://www.ieu.edu.tr/en" style="margin-left: 35%" target="_blank">![alt text][logo]</a>
+<a href="https://www.ieu.edu.tr/en" style="display: flex; justify-content: center" target="_blank">![alt text][logo]</a>
 
 Graduated in 2018, I learned so much as a student! The mandatory courses
 showed me how think as an engineer while elective courses showed me
