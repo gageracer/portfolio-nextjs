@@ -44,7 +44,7 @@
 }
 
 .listItem {
-    margin: 0 0 1.25rem;
+    margin: 0;
 }
 
 .listItem>a {
@@ -92,8 +92,10 @@
     padding: 0px;
     list-style: none;
 }
+
 .socials>li {
         margin-bottom: 1rem;
+        max-width: 24px;
 }
 
 .socials::after {
@@ -107,13 +109,13 @@
 }
 
 
-
 @media (max-width: 1080px) {
     .socials {
         left: 20px;
         right: auto;
     }
 }
+
 @media (max-width: 768px) {
     .socials {
         position: relative;
