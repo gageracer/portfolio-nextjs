@@ -4,10 +4,10 @@ date: '2020-10-10'
 img: 'mystufflogo.png'
 ---
 <br/>
-<a href="https://gageracer.github.io/myStuff/" target="_blank" style="display: flex; flex-direction: row; justify-content: space-evenly; max-width: 100%">
-  <img src="/images/mystuffgif/gif1.gif"  />
-  <img src="/images/mystuffgif/gif2.gif"  /> 
-  <img src="/images/mystuffgif/gif3.gif"  />
+<a href="https://gageracer.github.io/myStuff/" target="_blank" style="display: flex; flex-direction: row; justify-content: space-evenly; max-width: 100%" >
+  <img style="max-width: 30%" src="/images/mystuffgif/gif1.gif"  />
+  <img style="max-width: 30%" src="/images/mystuffgif/gif2.gif"  /> 
+  <img style="max-width: 30%" src="/images/mystuffgif/gif3.gif"  />
 </a>
 
 My latest and greatest web app. It's a note-taking app that is aimed to be used on any platform,

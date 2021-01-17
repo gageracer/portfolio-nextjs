@@ -31,7 +31,7 @@ export default function Home({ allPostsData }) {
                       {img && <img
                       src={`/images/${img}`}
                       alt={"Logo"}
-                      style={{maxWidth: "48px"}}
+                      className={utilStyles.titleImage}
                     />}</a>
                   </Link>
                   <br/>

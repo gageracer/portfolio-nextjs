@@ -47,10 +47,6 @@
     margin: 0 0 1.25rem;
 }
 
-.listItem>a>img {
-    float: right;
-    margin-left: 0.5em
-}
 
 .lightText {
     color: #999;
@@ -94,6 +90,12 @@
     writing-mode: vertical-rl;
 }
 
+.titleImage {
+    max-Width: 48px;
+    float: right;
+    margin-left: 0.5em
+}
+
 @media (max-width: 1080px) {
     .socials {
         left: 20px;
@@ -113,6 +115,7 @@
         -webkit-box-align: center;
         align-items: center;
         list-style: none;
+        margin-top: 1rem;
     }
     .socials>li {
         margin-right: 5vw;
@@ -122,5 +125,18 @@
     height: 0;
     margin: 0;
     content: "";
-}
+    }
+    .titleImage {
+        max-Width: 32px;
+        float: left;
+        margin-left: 0.5em;
+    }
+    .headingMd {
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    .insideData>p{
+        margin-left: 0.5em;
+    }
+     
 }
