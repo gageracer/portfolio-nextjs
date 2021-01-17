@@ -1,0 +1,126 @@
+.heading2Xl {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+}
+
+.headingXl {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+}
+
+.headingLg {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem  0;
+}
+
+.headingMd {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.borderCircle {
+    border-radius: 9999px;
+}
+
+.colorInherit {
+    color: inherit;
+}
+
+.padding1px {
+    padding-top: 1px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    margin: 0 0 1.25rem;
+}
+
+.listItem>a>img {
+    float: right;
+    margin-left: 0.5em
+}
+
+.lightText {
+    color: #999;
+}
+
+.resume{
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    line-height: 1;
+}
+
+.socials {
+    width: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: lightslategray;
+
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.socials>li {
+        margin-bottom: 1rem;
+}
+
+.socials::after {
+    box-sizing: inherit;
+    content: "─────────";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin-left: 28px;
+    writing-mode: vertical-rl;
+}
+
+@media (max-width: 1080px) {
+    .socials {
+        left: 20px;
+        right: auto;
+    }
+}
+@media (max-width: 768px) {
+    .socials {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        list-style: none;
+    }
+    .socials>li {
+        margin-right: 5vw;
+    }
+    .socials::after {
+    width: 0;
+    height: 0;
+    margin: 0;
+    content: "";
+}
+}
