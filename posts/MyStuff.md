@@ -10,11 +10,12 @@ img: 'mystufflogo.png'
   <img style="max-width: 30%" src="/images/mystuffgif/gif3.gif"  />
 </a>
 
-My latest and greatest web app. It's a note-taking app made with Svelte that is designed for any platform thanks to the PWA features. All user data is stored in the local system to prevent personal data leak. I seek to expand its functions. 
+My latest and greatest web app. It's a note-taking app made with Svelte that is designed for any platform thanks to the PWA features. 
+All user data is stored in the local system to prevent personal data leak. Currently, I have been working on it to expand functionalities.
 
 Some features are:
 - Compatibility with IOS, Android, macOS, Windows, and Linux,
-- Blazing-fast thanks to Svelte,
+- Lightening fast processing due to Svelte,
 - Has it's own state and routing,
 - Easy navigation with a simple design
 
