@@ -3,11 +3,15 @@ import Head from 'next/head'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { motion, AnimatePresence} from 'framer-motion'
+import { useState } from 'react'
 
 const name = 'John Can Aygin'
 export const siteTitle = 'John\'s Portfolio'
 
 export default function Layout({children, home}) {
+
+    const [imgHover, setImgHover] = useState(false);
+
 
     return <div className={styles.container}>
                 <Head>
@@ -61,8 +65,9 @@ export default function Layout({children, home}) {
                         
                         { home ? (
                             <>
-                                <img
-                                    src="/images/profile.jpeg"
+                            <img onMouseEnter={() => setTimeout( () => {setImgHover(true)},4000) }
+                                 onMouseLeave={() => setImgHover(false) }   
+                                src={ imgHover ? "/images/profile2.jpeg" : "/images/profile.jpeg" }
                                     className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                     alt={name}
                                 />
@@ -98,37 +103,25 @@ export default function Layout({children, home}) {
                                 transition: {
                                     when: "afterChildren",
                                     type: "spring",
-                                    stiffness: 300,
-                                    duration: 0.5
+                                    stiffness: 200,
                                 },
                                 // x: "-100%",
                                 opacity: 0,
-                                
-                               
                             },
                             visible: {
                                 x: 0,
                                 opacity: 1,
                                 zIndex: 1,
-                                
+                                duration: 5,
                                 transition: {
                                     when: "beforeChildren",
                                     type: "spring",
-                                    stiffness: 300,
-                                    damping: 25,
-                                    delay: 0.3,
+                                    stiffness: 200,
+                                    damping: 10,
+                                    delay: .5,
                                 },
                                 
                             },
-                            exit: {
-                                x: "100%",
-                                opacity: 0,
-                                zIndex: 0,
-                                transition: {
-                                    duration: 0.5,
-                                }
-                                
-                            }
                         }}>
                     <main>{children}</main>
                     {!home && (
@@ -138,8 +131,6 @@ export default function Layout({children, home}) {
                             </Link>
                         </div>
                     )}
-                    </motion.div>
-                </AnimatePresence>
             <ul orientation="left"  className={utilStyles.socials}>
                 <li>
                     <a href="https://github.com/gageracer" target="_blank"><img src="/images/svgs/github.svg" alt="github" /></a>
@@ -154,6 +145,8 @@ export default function Layout({children, home}) {
                 <a href="/resume/John's Resume_1203.pdf" target="blank"><img alt="resume" src="/images/svgs/resume.svg" /></a>
                 </li>
             </ul>
+                    </motion.div>
+                </AnimatePresence>
             </div>
 
 }

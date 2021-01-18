@@ -20,6 +20,13 @@
     width: 10rem;
     height: 10rem;
     box-shadow: 0.5rem 0.2rem#006064;
+    transition: box-shadow 5s;
+
+}
+
+.headerHomeImage:hover {
+    box-shadow: 1.8rem .4rem #006064;
+    /* filter: blur(8px); */
 }
 
 .backToHome {

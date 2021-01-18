@@ -6,9 +6,9 @@ img: 'ieulogo2.png'
 
 <a href="https://www.ieu.edu.tr/en" style="display: flex; justify-content: center" target="_blank">![alt text][logo]</a>
 
-Graduated in 2018, I learned so much as a student! The mandatory courses
+Having graduated in 2018, I learned so much as a student! The mandatory courses
 showed me how think as an engineer while elective courses showed me
-the possiblities of the computer sciences(which there is a lot) such as:
+the possiblities of the computer sciences (which there is a lot) such as:
 
 - Advanced Machine Learning,
 - Cryptography and Network Security,
@@ -19,7 +19,7 @@ the possiblities of the computer sciences(which there is a lot) such as:
 - Advanced Game Development,
 - Network Programming in Computer Game
 
-I also got some social science courses,
+I also took some social science courses,
 
 - Principles of Social Sciences,
 - Motivation,
