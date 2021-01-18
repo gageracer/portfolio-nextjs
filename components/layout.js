@@ -151,7 +151,7 @@ export default function Layout({children, home}) {
                     <a href="https://www.linkedin.com/in/can-aygin-79856717a/" target="_blank"><img alt="linkedin" src="/images/svgs/linkedin.svg" /></a>
                 </li>
                 <li>
-                    <a href="resume/John's Resume_1203.pdf" target="blank"><img alt="resume" src="/images/svgs/resume.svg" /></a>
+                <a href="/resume/John's Resume_1203.pdf" target="blank"><img alt="resume" src="/images/svgs/resume.svg" /></a>
                 </li>
             </ul>
             </div>
