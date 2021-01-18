@@ -133,16 +133,16 @@ export default function Layout({children, home}) {
                     )}
             <ul orientation="left"  className={utilStyles.socials}>
                 <li>
-                    <a href="https://github.com/gageracer" target="_blank"><img src="/images/svgs/github.svg" alt="github" /></a>
+                        <a href="https://github.com/gageracer" title="GitHub" target="_blank"><img src="/images/svgs/github.svg" alt="github" /></a>
                 </li>
                 <li>
-                    <a href="https://www.codewars.com/users/gageracer/stats" target="_blank"><img src="/images/svgs/codewars.svg" alt="codewars" /></a>
+                        <a href="https://www.codewars.com/users/gageracer/stats" title="CodeWars" target="_blank"><img src="/images/svgs/codewars.svg" alt="codewars" /></a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/can-aygin-79856717a/" target="_blank"><img alt="linkedin" src="/images/svgs/linkedin.svg" /></a>
+                        <a href="https://www.linkedin.com/in/can-aygin-79856717a/" title="LinkedIn" target="_blank"><img alt="linkedin" src="/images/svgs/linkedin.svg" /></a>
                 </li>
                 <li>
-                <a href="/resume/John's Resume_1203.pdf" target="blank"><img alt="resume" src="/images/svgs/resume.svg" /></a>
+                        <a href="/resume/John's Resume_1203.pdf" title="Resume" target="blank"><img alt="resume" src="/images/svgs/resume.svg" /></a>
                 </li>
             </ul>
                     </motion.div>
