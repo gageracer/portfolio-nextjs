@@ -43,7 +43,6 @@ export default function Home({ allPostsData }) {
                 </li>
               ))}
           </ul>
-        {/* <a className={utilStyles.resume} href="resume/John's Resume_1203.pdf" target="blank">Resume</a> */}
         </section>
       </Layout>
   )
