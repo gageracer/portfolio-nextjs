@@ -15,7 +15,7 @@ All user data is stored in the local system to prevent personal data leak. Curre
 
 Some features are:
 - Compatibility with IOS, Android, macOS, Windows, and Linux,
-- Lightening fast processing due to Svelte,
+- Lightning fast processing due to Svelte,
 - Has it's own state and routing,
 - Easy navigation with a simple design
 
