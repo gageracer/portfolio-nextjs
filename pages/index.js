@@ -16,7 +16,7 @@ export default function Home({ allPostsData }) {
         <p>Hi, my name is John. I'm a computer engineer and I build things for the web.
           You can contact me on <a target="_blank" href="https://www.linkedin.com/in/can-aygin-79856717a/">LinkedIn</a> and my resume is on the navigation bar.</p>
         <p>
-          Here are some of my work so far. There are more if you want to check on my <a target="_blank" href="https://github.com/gageracer">GitHub </a> like games, small prototypes and such.
+          Here is some of my work so far. There are more if you want to check on my <a target="_blank" href="https://github.com/gageracer">GitHub </a> like games, small prototypes and such.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
