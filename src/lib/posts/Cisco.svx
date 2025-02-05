@@ -1,0 +1,29 @@
+---
+title: 'Cisco Systems Software Engineering'
+date: '2021-08-01'
+img: 'Cisco_light.svg'
+---
+
+<a href="https://www.cisco.com/c/en/us/support/cloud-systems-management/managed-services-accelerator/series.html" style="display: flex; justify-content: center" target="_blank">
+<img alt="QFM Profile Screen" src="/images/ciscomsx.jpg" />
+</a>
+
+From August 2021 to April 2024, I worked at Cisco Systems as a Software Engineer. During my time there, I contributed to three different product lines: <a href="https://www.cisco.com/c/en/us/support/cloud-systems-management/managed-services-accelerator/series.html" target="_blank">MSX</a>,<a href="https://developer.cisco.com/docs/xpresso/" target="_blank">Xpresso</a>, and OneDevX(the new platform inside the company instead for Xpresso).
+
+While I started with Angular development, I quickly moved into full-stack development using React and Go. I led a significant migration project converting Java microservices to Go, which improved our API performance and maintainability. On the frontend, I built new features using React while maintaining existing Angular components.
+
+Some key projects included:
+- Migrating critical microservices from Java to Go
+- Building modern Angular & React components for new features
+- Building components that are micro-frontend compliant for OneDevX
+- Creating efficient search and filtering systems
+- Implementing real-time data processing with Go
+- Developing and consuming RESTful APIs using Swagger
+
+The tech stack I worked with included:
+- Frontend: React, Angular, TypeScript, HTML, SCSS
+- Backend: Go, Python (previously Java)
+- Testing: Jest, Cypress
+- Tools: Docker, Git, Jenkins, Swagger
+
+I learned a lot about modern web architecture, particularly around Go microservices and React-based frontends. The experience gave me solid foundations in both frontend and backend development, testing practices, and agile methodologies.

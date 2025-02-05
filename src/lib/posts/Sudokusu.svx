@@ -1,0 +1,34 @@
+---
+title: 'Sudokusu - A free Sudoku game'
+date: '2025-01-31'
+img: 'sudokuicon.png'
+---
+
+<a href="https://sudokusu.vercel.app/" style="display: flex; ; flex-direction: row; justify-content: space-evenly; max-width: 100%" target="_blank">
+    <img alt="Sudokusu Game Screen" style="max-width: 50%; max-height:32rem" src="/images/sudokuss.png" />
+    <img alt="Sudokusu Game Screen" style="max-width: 50%; max-height:32rem" src="/images/sudokuss2.png" />
+</a>
+
+Frustrated with ad-filled Sudoku games, I decided to create my own clean, minimalist solution. Built in just two weeks, Sudokusu is a completely free, privacy-focused Sudoku game with no ads or data collection.
+
+Key features:
+- 100% ad-free experience
+- Pure client-side implementation
+- Zero data collection
+- Works offline (PWA-enabled)
+- Clean, minimalist design
+- Multiple difficulty levels
+- Progress saving
+
+Built with:
+- SvelteKit for the framework
+- Tailwind CSS for styling
+- PWA capabilities for offline play
+- Claude AI for grid generation
+- LocalStorage for progress saving
+
+I focused on creating a distraction-free experience that respects user privacy. The entire game runs client-side, meaning it works perfectly even without an internet connection once installed as a PWA.
+
+Try it here: <a href="https://sudokusu.vercel.app/" target="_blank">Sudokusu</a>
+
+For the source code: <a href="https://github.com/gageracer/sudokusu" target="_blank">GitHub Repository</a>
