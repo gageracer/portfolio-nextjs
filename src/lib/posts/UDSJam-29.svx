@@ -1,0 +1,38 @@
+---
+title: 'EvoCatcher - Itch.io Game Jam'
+date: '2024-03-01'
+img: 'evocatch.png'
+---
+
+<a href="https://itch.io/jam/udc-jam-29/rate/2576159" style="display: flex; justify-content: center" target="_blank">
+<img alt="Game Dev Document" src="/images/evocatcher.png" />
+</a>
+
+I participated in a game jam from March 1-10, 2024, where I served as the UI and Game Programmer in a team that created EvoCatcher. We placed #12 overall in the jam with our Suika-inspired evolution game with a scientific twist.
+
+The game puts players in the role of a scientist who must catch and evolve different species. Think Tetris meets Pokemon evolution, but with physics-based gameplay. Players move left and right to catch falling creatures in their bowl, trying to combine same-species specimens to trigger evolutions.
+
+As the UI programmer, I implemented:
+- Main menu and game over screens
+- Real-time score tracking system
+- Evolution stage indicators
+- Space management warning system
+- Responsive UI elements that scale with screen size
+
+On the gameplay side, I worked on:
+- Core movement mechanics for the scientist's bowl
+- Species evolution trigger system
+- Collision detection between same-species creatures
+- Physics-based bowl tipping mechanics
+- Particle effects for evolution animations
+
+We implemented three distinct species (Rabbit, Fish, Bear), each with 5 evolution stages and unique physical properties that affect gameplay. The trickiest part was balancing the physics to make each species feel distinct while maintaining fair gameplay.
+
+Built with:
+- Unity Game Engine
+- C# for game and UI logic
+- Unity UI system
+- Custom physics system
+- Particle system for evolution effects
+
+Placing #12 in the jam was a great achievement for our team, and the project helped me improve my skills in rapid prototyping, UI design, and physics-based gameplay programming. Game repo here: https://github.com/atenajoon/UDSJam-29

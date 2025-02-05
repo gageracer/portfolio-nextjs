@@ -1,0 +1,34 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+	html {
+		font-family: "Source Sans Pro", sans-serif;
+	}
+
+	body {
+		@apply overflow-y-scroll scrollbar-hide;
+	}
+
+	a {
+		@apply inline-block text-accent transition-all duration-300 ease-in-out hover:-translate-y-1 hover:underline;
+	}
+
+	img {
+		@apply block max-w-full;
+	}
+	li::marker {
+		@apply text-white !important;
+	}
+}
+
+@layer utilities {
+	.scrollbar-hide {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+	.scrollbar-hide::-webkit-scrollbar {
+		display: none;
+	}
+}
