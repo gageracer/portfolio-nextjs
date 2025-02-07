@@ -1,9 +1,15 @@
+import type { Component } from "svelte";
+
 type Post = {
 	slug: string;
 	title: string;
 	date: string;
 	img?: string;
-	content?: string;
+	content?: Component;
+};
+type PostModule = {
+	metadata: Post;
+	default: Component;
 };
 
 // Import all .svx files in the posts directory
@@ -18,8 +24,8 @@ export function getPosts(): Post[] {
 		.map(([path, post]) => {
 			const slug = path.split("/").pop()?.replace(".svx", "");
 			return {
-				slug,
 				...(post as { metadata: Post }).metadata,
+				slug: slug || '',
 			};
 		})
 		.sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -32,9 +38,9 @@ export async function getPost(slug: string): Promise<Post | undefined> {
 	if (!post) return undefined;
 
 
-	return {
-		slug,
-		content: post.default,
-		...(post.metadata as any),
+  return {
+    ...(post as {metadata: Post}).metadata,
+    content: (post as PostModule).default,
+    slug,
 	};
 }
