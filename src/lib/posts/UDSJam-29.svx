@@ -1,7 +1,7 @@
 ---
 title: 'EvoCatcher - Itch.io Game Jam'
 date: '2024-03-01'
-img: 'evocatch.png'
+img: 'evocatch.jpg'
 ---
 
 <a href="https://itch.io/jam/udc-jam-29/rate/2576159" style="display: flex; justify-content: center" target="_blank">
