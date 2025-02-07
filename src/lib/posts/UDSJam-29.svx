@@ -5,7 +5,7 @@ img: 'evocatch.png'
 ---
 
 <a href="https://itch.io/jam/udc-jam-29/rate/2576159" style="display: flex; justify-content: center" target="_blank">
-<img alt="Game Dev Document" src="/images/evocatcher.png" />
+<img alt="Game Dev Document" src="/images/evocatcher.jpg" />
 </a>
 
 I participated in a game jam from March 1-10, 2024, where I served as the UI and Game Programmer in a team that created EvoCatcher. We placed #12 overall in the jam with our Suika-inspired evolution game with a scientific twist.
